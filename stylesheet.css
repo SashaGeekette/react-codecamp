@@ -1,0 +1,16 @@
+#numbers-frame .number,#answer-frame .well span{
+    display: inline-block;
+    background-color: #dddddd;
+    width:30px;
+    font-size: 22px;
+    border-radius: 50%;
+    cursor:pointer;
+    margin: 0.5em;
+    text-align: center;
+}
+
+#numbers-frame .selected-true{
+    background-color: #f8f8f8;
+    color: #f8f8f8;
+    cursor: not-allowed;
+}
